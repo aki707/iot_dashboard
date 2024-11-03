@@ -1,0 +1,50 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.sensor-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.data-item {
+  width: 48%;
+  margin: 10px 0;
+  font-size: 1em;
+  padding: 10px;
+  background-color: #e8eaf6;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.value {
+  color: #333;
+  font-size: 1.1em;
+}
